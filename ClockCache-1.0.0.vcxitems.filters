@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ClockCache.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ClockCache.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)ClockCache.vcxitems">
+      <Filter>_stuff</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ClockCache.vcxitems.filters">
+      <Filter>_stuff</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties">
+      <Filter>_stuff</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt">
+      <Filter>_stuff</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_stuff">
+      <UniqueIdentifier>{26eb3ff1-8ede-439b-bb8c-25125898be35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
